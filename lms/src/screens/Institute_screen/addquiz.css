@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.left {
+  width: 25%;
+  height: 100%;
+  background-color: rgb(216, 220, 218);
+}
+
+.right {
+  width: 75%;
+  height: 100%;
+  background-color: rgb(187, 186, 185);
+}
+
+.l-t {
+  width: 100%;
+  height: 35%;
+  display: flex;
+  justify-content: center;
+}
+
+.imagess {
+  background-color: rgb(50, 187, 228);
+  width: 50%;
+  height: 60%;
+  margin: 40px;
+  border-radius: 70%;
+  padding: 23%;
+
+
+}
+
+.l-m {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.l-m button {
+  width: 150px;
+}
+
+.l-b {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.l-b button {
+  width: 150px;
+}
+.body{
+  width: 98%;
+  height: 98%;
+  margin: 1%;
+}
+.heading{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  width: 150px;
+}
+.quiz-info{
+  width: 100%
+}
+table tr td{
+  width:10%;
+}
+.quiz-info table tr td input {
+  width: 100%;
+  margin-top: 10px;
+  margin-right:10px ;
+  margin-bottom:10px ;    
+  padding: 5px;
+ 
+}
+.quiz-info table tr td button {
+  margin: 0;
+  width: 100%;
+  height:30px;
+}
+.questions{
+  width: 100%;
+}
+.questions table tr td input{
+  width: 70%;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
